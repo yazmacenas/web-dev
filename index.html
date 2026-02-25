@@ -3,31 +3,37 @@
   <head>
     <title>Webdev Emporium</title>
     <link rel="stylesheet" href="/web-dev/styles.css">
+    <style>
+      p, h1, h2 {color: hotpink;}
+      a {color: hotpink}
+      a:hover {color:blue;}
+      ul li {font-style: italic}
+      .int-link, ol p {font-weight: bolder}
+      #mail-link { color: blue; }
+    </style>
   </head>
   <body>
     <h1> Web Dev Homepage</h1>
-
-    <h2>Webpage Submission</h2>
-<ol>
-  <li>
-    <!-- This is an example of an absolute path -->
-    <a href="/web-dev/wdsub/headings.html">Headings</a>
-    <p>We practiced using headinga to create hierarchy in the content of our webpage. kinda like an outline for a paragraph.</p>
-  </li>
-</li>
-  <li>
-    <!--This is an example of a relative path-->
-  </li>
-  <a href=" /web-dev/wdsub.recipe.html">Recipe</a>
-  </li>
-  <p>This page demonstrates how we can use nested and unordered lists to outline the recipe of delicious food.</p>
-  <li>
-    <a href="https://yazmacenas.github.io/web-dev/wdsub/anchors.html">Anchors Practice</a>
-  </li>
-  <p>This is where we practiced using anchors.</p>
-  <li><a href="/web-dev/wdsub/poem.html">Poem</a></li>
-  <p>I uploaded a poem by Mary Oliver</p>
-</ol>
+    
+    <ol>
+      <li>
+        <a class="int-link" style="font-weight: lighter" href="/web-dev/wdsub/headings.html">Headings</a><p>We practiced using headings to create hierarchy in the content of our webpage. Kinda like an outline for a paragraph.</p>
+        </li>
+      <li>
+        <a class="int-link" href="/web-dev/wdsub/recipe.html">Recipe</a> <p>This page demonstrates how we can use nested and unordered lists to outline the recipe of delicious food.
+        </p>
+          
+        </li>
+      <li>
+        <a class="int-link" href="https://yazmacenas.github.io/web-dev/wdsub/anchors.html">Anchors Practice</a>
+        <p>This is where we practiced using anchors.</p>
+          
+        </li>
+      <li>
+        <a class="int-link" href="/web-dev/wdsub/poem.html">Poem</a>
+        <p>I uploaded a poem by Mary Oliver</p>
+        </li>
+        </ol>
     <hr>
 
     <h2>Helpful Resources</h2>
@@ -35,8 +41,9 @@
 
     <ul>
       <li><a href="https://codepen.io/pen/" target="_blank">codepen</a> is a site where you can practice your html ,css, and js before putting it on your site.</li>
-      <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>is a table of content for all things web development.</li>
-      <li><a href="https://lipsum.com/" target="_blank">Lipsum Generator</a>is a tool to randomly create paragraphs of placeholder text.</li>
+      <li><a class="int-link" href="https://www.w3schools.com/" target="_blank">W3 Schools</a> is a table of content for all things web development.</li>
+      
+      <li><a class="int-link" href="https://lipsum.com/" target="_blank">Lipsum Generator</a>is a tool to randomly create paragraphs of placeholder text.</li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>is an official encyclopedia of web development.</li>
       <li><a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color Wheel</a>is an awesome tool for selecting a color scheme for your website.</li>
 
@@ -46,13 +53,12 @@
 
     <p></p>
 
-<a href="mailto:aerin.stamp@gmail.com? subject=This is the Social Security Administration. Your SSN has been suspended due to criminal activity. Please confirm your account details immediately to avoid arrest.&cc=real@criminalactivity.org&body=Your bank account has been breached. %0D We need your 16-digit card number to secure it." target="_blank">Send Spam</a>
+<a href="mailto:aerin.stamp@gmail.com?subject=This%20is%20the%20Social%20Security%20Administration.%20Your%20SSN%20has%20been%20suspended%20due%20to%20criminal%20activity.%20Please%20confirm%20your%20account%20details%20immediately%20to%20avoid%20arrest.&cc=real@criminalactivity.org&body=Your%20bank%20account%20has%20been%20breached.%0D%20We%20need%20your%2016-digit%20card%20number%20to%20secure%20it." target="_blank">Send Spam</a>
 
 <p></p>
 
-<a href="mailto:nathanael.stamp@youngsvilleacademy.org?cc=student.fake@youngsvilleacademy.org&subject=Live Code Submission - Stamp&body=Dear Mr. Stamp, thank you so much for the opportunity to take such an interesting, unique assessment. i think I really crushed this one. Enjoy grading it. Link is pasted below:%0A" target="_blank">Click here to submit a new live code session</a>
+<a id="mail-link" href="mailto:nathanael.stamp@youngsvilleacademy.org?cc=student.fake@youngsvilleacademy.org&subject=Live%20Code%20Submission%20-%20Stamp&body=Dear%20Mr.%20Stamp,%20thank%20you%20so%20much%20for%20the%20opportunity.%20I%20think%20I%20really%20crushed%20this%20one.%20Enjoy%20grading%20it.%20Link%20is%20pasted%20below:%0A" target="_blank"> Click here to submit a new live code session </a>
+    
+<div id="footer"></div>
   </body>
 </html>
-
-
-
