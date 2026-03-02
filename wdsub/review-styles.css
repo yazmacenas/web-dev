@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'boldonse', sans-serif;
+  background-color: #002169;
+  color: #00000E;
+}
+
+h1. h2 {
+  font-family: Knewave, sans-serif;
+  font-size: 1.5rem;
+}
+
+div.card {
+  background-color: #1173F2;
+    margin-left: 75px;
+  margin-right: 75px;
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 8px;
+  border: solid 3px #00000E;
+}
+
+hr {
+  margin-left: 75px;
+  margin-right: 75px;
+  border-color: #00000E;
+}
+
+a {
+  color: ;
+  text-decoration: none;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  
+}
+
+ a:hover {
+color: #0F30A6
+}
+
+.font{
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+}
