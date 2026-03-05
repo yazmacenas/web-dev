@@ -1,18 +1,41 @@
 body {
   font-family: sans-serif;
+  background-color: #FFB3DD;
+  margin: 0px;
+  background-color: lightpink;
 }
 
+#bg-img {
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.2;
+}
+
+h1 {
+  background-color: white;
+  width: 50%;
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  text-shadow: 2px 2px #FAC5E1;
+  border-radius: 5px;
+  border: solid 3px #FA8BCD;
+  font-size: 140%;
+}
 p, h1, h2 {
    color: red;
    font-size: 12px;
 }
 
       a  {
-        color: hotpink
+        color: #FFB3DD
 }
 
       a:hover {
-color:blue
+color: blue
 }
 
       ul li {font-style: italic}
@@ -22,3 +45,8 @@ color:blue
       #mail link {color:gray}
 
       #mail link {color:blue}
+
+<!--
+#footer {
+  background-imagine: url();
+} -->
